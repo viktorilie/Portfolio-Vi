@@ -1,0 +1,25 @@
+.sidebar {
+  background: #508c9b;
+  color: #dadada;
+  /* overflow-y: auto; */
+  scrollbar-color: rgba(0, 0, 0, 0.2) #508c9b;
+  scrollbar-width: thin;
+  /* height: 100vh; */
+  /* font-size: 16px; */
+}
+
+.nav-link:hover {
+  color: black; /* Change color on hover */
+  transform: scale(1.03); /* Scale up on hover */
+  transition: transform 0.6s ease; /* Transition for the scaling */
+  text-transform: uppercase;
+}
+
+.sidebarimage {
+  margin: 25px;
+  max-width: 175px;
+}
+
+.hireMe-button {
+  max-width: 175px;
+}

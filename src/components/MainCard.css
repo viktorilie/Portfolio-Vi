@@ -1,0 +1,19 @@
+.btn-portfolio {
+  background-color: rgb(80, 140, 155);
+  text-align: center;
+  border-radius: 6px;
+  /* border: 1px rgb(80, 140, 155) !important; */
+  /* border: outset !important; */
+  border: 0cap;
+  padding: 6px;
+  margin: 6px;
+  width: 175px;
+  height: 38px;
+}
+
+.btn-portfolio:hover {
+  background-color: transparent;
+  border: 1px outset rgb(80, 140, 155) !important;
+  color: black;
+  /* transform: scale(1.01); */
+}
