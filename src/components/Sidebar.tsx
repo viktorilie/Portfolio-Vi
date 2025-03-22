@@ -19,7 +19,7 @@ const Sidebar = () => {
         <div>
           <img
             className="sidebarimage shadow-lg rounded"
-            src="./images/IMG_0013.JPG"
+            src="./src/assets/IMG_0013.JPG"
           />
         </div>
         <div>
