@@ -1,23 +1,23 @@
 // import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Sidebar from "./components/Sidebar";
-import MainCard from "./components/MainCard";
 
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
+import AboutCard from "./components/AboutCard";
 
 function App() {
   return (
     <>
-      <div className="d-flex ">
+      <div className="d-flex">
         <Sidebar />
-        <div className="pt-1">
-          <MainCard />
+        <main>
+          <AboutCard />
           <Skills />
           <Portfolio />
           <Footer />
-        </div>
+        </main>
       </div>
     </>
   );

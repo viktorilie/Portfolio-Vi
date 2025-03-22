@@ -14,7 +14,7 @@ const Sidebar = () => {
   return (
     <>
       <div
-        className="sidebar d-none d-md-flex flex-column px-3 text-dark  border-right position-sticky vh-100 m-2"
+        className="sidebar d-none d-md-flex flex-column text-dark border-right position-sticky vh-100 me-2  px-3"
         style={{ width: "250px", top: "0" }}>
         <div>
           <img
@@ -83,13 +83,11 @@ const Sidebar = () => {
           </li>
         </div>
         <hr />
-        <div className="py-2">
-          <div className="px-3">
-            <button type="submit" className="btn btn-dark w-100 hireMe-button">
-              <BsFillSendFill />
-              <small className="ps-2">Hire me</small>
-            </button>
-          </div>
+        <div className="px-3 mb-3">
+          <button type="submit" className="btn btn-dark w-100 hireMe-button">
+            <BsFillSendFill />
+            <small className="ps-2">Hire me</small>
+          </button>
         </div>
       </div>
     </>
