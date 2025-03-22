@@ -10,9 +10,9 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="d-flex">
+      <div className="d-flex ">
         <Sidebar />
-        <div className="pt-4 w-100">
+        <div className="pt-1">
           <MainCard />
           <Skills />
           <Portfolio />
