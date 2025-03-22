@@ -14,7 +14,7 @@ const Sidebar = () => {
   return (
     <>
       <div
-        className="sidebar d-none d-md-flex flex-column px-3 text-dark shadow-lg border-right position-sticky vh-100"
+        className="sidebar d-none d-md-flex flex-column text-dark border-right position-sticky vh-100 me-2  px-3"
         style={{ width: "250px", top: "0" }}>
         <div>
           <img
@@ -23,10 +23,10 @@ const Sidebar = () => {
           />
         </div>
         <div>
-          <h2 className="text-center">Viktor Ilie</h2>
+          <h2 className="text-center fw-bolder">Viktor Ilie</h2>
           <h6 className="text-center">web developer</h6>
         </div>
-        <hr />
+        <hr className="p-1 m-1" />
         <ul className="nav navbar-nav flex-column mx-3">
           <li className="nav-item">
             <a className="nav-link" href="#">
@@ -60,7 +60,7 @@ const Sidebar = () => {
             </a>
           </li> */}
         </ul>
-        <hr />
+        <hr className="p-1 m-1" />
         {/* social media links */}
         <div className="list-inline mx-3">
           <li className="list-inline-item">
@@ -83,15 +83,11 @@ const Sidebar = () => {
           </li>
         </div>
         <hr />
-        <div className="py-2">
-          <div className="px-3">
-            <button
-              type="submit"
-              className="btn btn-outline-dark w-100 hireMe-button">
-              <BsFillSendFill />
-              <small>Hire me</small>
-            </button>
-          </div>
+        <div className="px-3 mb-3">
+          <button type="submit" className="btn btn-dark w-100 hireMe-button">
+            <BsFillSendFill />
+            <small className="ps-2">Hire me</small>
+          </button>
         </div>
       </div>
     </>

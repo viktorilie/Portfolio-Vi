@@ -15,10 +15,10 @@ import { SiAzuredevops } from "react-icons/si";
 const Skills = () => {
   return (
     <>
-      <div id="skills" className="d-flex flex-row container">
-        <div className="card d-flex flex-column m-3 p-5">
+      <div id="skills" className="">
+        <div className="vcard d-flex flex-column m-2 p-5">
           <div className="d-flex flex-row">
-            <h4>Technologies I do</h4>
+            <h3>Technologies I do</h3>
           </div>
           <div className="d-flex flex-row">
             <p>
@@ -29,25 +29,20 @@ const Skills = () => {
             </p>
           </div>
 
-          <div className="d-flex flex-row justify-content-around align-items-center pt-4 ">
-            <div className="row">
-              <SiHtml5 className="y-1" size={50} />
-              <SiCss3 className="my-1" size={50} />
-              <SiBootstrap className="my-1" size={50} />
-              <SiFigma className="my-1" size={50} />
-            </div>
-            <div className="row">
-              <SiJavascript className="my-1" size={50} />
-              <SiReact className="my-1" size={50} />
-              <SiGit className="my-1" size={50} />
-              <SiAzuredevops className="my-1" size={50} />
-            </div>
-
-            <div className="row">
-              <SiDotnet className="my-1" size={50} />
-              <SiMicrosoftsqlserver className="my-1" size={50} />
-              <SiCsharp className="my-1" size={50} />
-              <VscVscode className="my-1" size={50} />
+          <div className="d-flex flex-row justify-content-around align-items-center ">
+            <div className="p-4">
+              <SiHtml5 className="m-1 p-1" size={75} />
+              <SiCss3 className="m-1 p-1" size={75} />
+              <SiBootstrap className="m-1 p-1" size={75} />
+              <SiFigma className="m-1 p-1" size={75} />
+              <SiJavascript className="m-1 p-1" size={75} />
+              <SiReact className="m-1 p-1" size={75} />
+              <SiGit className="m-1 p-1" size={75} />
+              <SiAzuredevops className="m-1 p-1" size={75} />
+              <SiDotnet className="m-1 p-1" size={75} />
+              <SiMicrosoftsqlserver className="m-1 p-1" size={75} />
+              <SiCsharp className="m-1 p-1" size={75} />
+              <VscVscode className="m-1 p-1" size={75} />
             </div>
           </div>
         </div>
