@@ -18,21 +18,20 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
   text,
 }) => {
   return (
-    <div className="card shadow">
-      <div className="card-body">
-        <img src={imageSrc} alt={altText} className="img-fluid w-100" />
-      </div>
-      <div className="d-flex p-3">
+    <div className="card shadow" style={{ width: "18rem" }}>
+      <img src={imageSrc} alt={altText} className="img-fluid w-100" />
+      <div className="card-body m-2">
         <h6 className="fw-bold card-title">{title}</h6>
         <p className="card-text">{description}</p>
+
+        <a
+          href={githubLink}
+          className="card-link"
+          target="_blank"
+          rel="noopener noreferrer">
+          {text}
+        </a>
       </div>
-      <a
-        href={githubLink}
-        className="card-link"
-        target="_blank"
-        rel="noopener noreferrer">
-        {text}
-      </a>
     </div>
   );
 };
