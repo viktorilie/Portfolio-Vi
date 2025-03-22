@@ -1,24 +1,18 @@
 // import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Sidebar from "./components/Sidebar";
-
-import Skills from "./components/Skills";
-import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
-import AboutCard from "./components/AboutCard";
+import Home from "./components/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import NotFound from "./NotFound";
 
 function App() {
   return (
     <>
-      <div className="d-flex">
-        <Sidebar />
-        <main>
-          <AboutCard />
-          <Skills />
-          <Portfolio />
-          <Footer />
-        </main>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/Portfolio-Vi/" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
