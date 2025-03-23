@@ -42,14 +42,17 @@ const Portfolio = () => {
         <div className="col-sm">
           <PortfolioCard
             imageSrc={"https://placehold.co/200"}
-            altText="WEB/MOBILE APPLICATION FOR TELEPHONY SERVICES AND MANAGEMENT"
-            title="WEB/MOBILE APPLICATION FOR TELEPHONY SERVICES AND MANAGEMENT"
+            altText="WEB APPLICATION FOR COMPUTING, BUSINESS CONTINUITY & DATACENTER
+               SERVICES"
+            title="WEB APPLICATION FOR COMPUTING, BUSINESS CONTINUITY & DATACENTER
+               SERVICES"
             description="
-          Developed a sophisticated website for an IT company to effectively
-              showcase their portfolio and technical skills. The project
-              involved both front-end and back-end development, ensuring a
-              seamless user experience and robust functionality to attract
-              potential clients and partners."
+              Developed a comprehensive web and mobile application to manage
+               computing, business continuity, and data center services. The
+               project focused on creating a scalable and robust platform to
+               ensure seamless operation and management of critical services,
+               with a focus on user-friendly design and functionality across
+               different devices."
             githubLink={"github/"}
           />
         </div>
