@@ -20,6 +20,7 @@ const Sidebar = () => {
           <img
             className="sidebarimage shadow-lg rounded"
             src="./src/assets/IMG_0013.JPG"
+            alt="Portfolio image placeholder"
           />
         </div>
         <div>
