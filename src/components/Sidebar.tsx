@@ -9,6 +9,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsFillSendFill } from "react-icons/bs";
 import "./Sidebar.css";
+import PorfolioImage from "../assets/VIcon.svg";
 
 const Sidebar = () => {
   return (
@@ -19,7 +20,7 @@ const Sidebar = () => {
         <div>
           <img
             className="sidebarimage shadow-lg rounded"
-            src="./src/assets/IMG_0013.JPG"
+            src={PorfolioImage}
             alt="Portfolio image placeholder"
           />
         </div>
