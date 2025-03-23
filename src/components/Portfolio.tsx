@@ -58,14 +58,14 @@ const Portfolio = () => {
         <div className="col-sm">
           <PortfolioCard
             imageSrc={"https://placehold.co/200"}
-            altText="WEB/MOBILE APPLICATION FOR TELEPHONY SERVICES AND MANAGEMENT"
-            title="WEB/MOBILE APPLICATION FOR TELEPHONY SERVICES AND MANAGEMENT"
+            altText=">FRONT-END REACT COMPONENT LIBRARY"
+            title=">FRONT-END REACT COMPONENT LIBRARY"
             description="
-          Developed a sophisticated website for an IT company to effectively
-              showcase their portfolio and technical skills. The project
-              involved both front-end and back-end development, ensuring a
-              seamless user experience and robust functionality to attract
-              potential clients and partners."
+              Developed a robust front-end React component library designed to
+               streamline the development process and promote code reusability
+               across multiple projects. The project focused on creating reusable
+               and consistent components, enhancing development efficiency and
+               maintaining a cohesive design system across various applications."
             githubLink={"github/"}
           />
         </div>
