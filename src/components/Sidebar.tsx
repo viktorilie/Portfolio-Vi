@@ -10,6 +10,7 @@ import { BsGithub } from "react-icons/bs";
 import { BsFillSendFill } from "react-icons/bs";
 import "./Sidebar.css";
 import PortfolioImage from "../assets/portfolio_image.jpg";
+import ThemeToggle from "../theme/ThemeToggle";
 
 const Sidebar = () => {
   return (
@@ -91,6 +92,7 @@ const Sidebar = () => {
             <small className="ps-2">Hire me</small>
           </button>
         </div>
+        <ThemeToggle />
       </div>
     </>
   );
