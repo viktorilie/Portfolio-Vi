@@ -58,8 +58,8 @@ const Portfolio = () => {
         <div className="col-sm">
           <PortfolioCard
             imageSrc={"https://placehold.co/200"}
-            altText=">FRONT-END REACT COMPONENT LIBRARY"
-            title=">FRONT-END REACT COMPONENT LIBRARY"
+            altText="FRONT-END REACT COMPONENT LIBRARY"
+            title="FRONT-END REACT COMPONENT LIBRARY"
             description="
               Developed a robust front-end React component library designed to
                streamline the development process and promote code reusability
