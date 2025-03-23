@@ -22,7 +22,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
       <img src={imageSrc} alt={altText} className="img-fluid w-100" />
       <div className="card-body m-2">
         <h6 className="fw-bold card-title">{title}</h6>
-        <p className="card-text">{description}</p>
+        <p className="card-text text-body-secondary">{description}</p>
 
         <a
           href={githubLink}
