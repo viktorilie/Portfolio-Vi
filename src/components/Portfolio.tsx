@@ -4,7 +4,7 @@ import PortfolioCard from "./PortfolioCard";
 const Portfolio = () => {
   return (
     <div id="portfolio" className="portfolio">
-      <div className="vcard row  m-2 p-5">
+      <div className="vcard row m-2 p-5">
         <h3 className="fw-semibold mb-4">Portfolio</h3>
 
         {/*  1 */}
@@ -15,7 +15,7 @@ const Portfolio = () => {
             title="WEBSITE FOR IT COMPANY SHOWCASING THEIR PORTFOLIO & SKILLS"
             description="Developed a sophisticated website for an IT company to effectively
               showcase their portfolio and technical skills. The project
-              involved both front-end and back-end development, ensuring a
+              involved with main foxus in front-end ensuring a
               seamless user experience and robust functionality to attract
               potential clients and partners."
             githubLink={"github/"}
@@ -29,11 +29,11 @@ const Portfolio = () => {
             altText="WEB/MOBILE APPLICATION FOR TELEPHONY SERVICES AND MANAGEMENT"
             title="WEB/MOBILE APPLICATION FOR TELEPHONY SERVICES AND MANAGEMENT"
             description="
-          Developed a sophisticated website for an IT company to effectively
-              showcase their portfolio and technical skills. The project
-              involved both front-end and back-end development, ensuring a
-              seamless user experience and robust functionality to attract
-              potential clients and partners."
+                Developed a web application to manage telephony
+               services and streamline service operations. The project involved
+               both front-end and back-end development, focusing on creating a
+               scalable and user-friendly platform to handle various telephony
+               services and management tasks."
             githubLink={"github/"}
           />
         </div>
@@ -47,9 +47,8 @@ const Portfolio = () => {
             title="WEB APPLICATION FOR COMPUTING, BUSINESS CONTINUITY & DATACENTER
                SERVICES"
             description="
-              Developed a comprehensive web and mobile application to manage
-               computing, business continuity, and data center services. The
-               project focused on creating a scalable and robust platform to
+              Developed comprehensive web application to manage
+               computing, business continuity and data center services. Focused on creating a scalable and robust platform to
                ensure seamless operation and management of critical services,
                with a focus on user-friendly design and functionality across
                different devices."
