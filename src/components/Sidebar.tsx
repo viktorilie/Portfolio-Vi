@@ -65,7 +65,7 @@ const Sidebar = () => {
         </ul>
         <hr className="p-1 m-1" />
         {/* social media links */}
-        <div className="list-inline mx-3">
+        <div className="list-inline">
           <li className="list-inline-item">
             <a className="nav-link" href="https://twitter.com/red_dev_vi">
               <BsTwitterX className="mx-3" size={24} />
@@ -91,6 +91,9 @@ const Sidebar = () => {
             <BsFillSendFill />
             <small className="ps-2">Hire me</small>
           </button>
+        </div>
+        <div className="d-flex flex-row">
+          <button className="btn btn-dark btn-sm">Theme change</button>
         </div>
         <ThemeToggle />
       </div>
