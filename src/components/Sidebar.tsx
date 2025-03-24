@@ -11,6 +11,7 @@ import { BsFillSendFill } from "react-icons/bs";
 import "./Sidebar.css";
 import PortfolioImage from "../assets/portfolio_image.jpg";
 import ThemeToggle from "../theme/ThemeToggle";
+import { IoColorPalette } from "react-icons/io5";
 
 const Sidebar = () => {
   return (
@@ -86,16 +87,21 @@ const Sidebar = () => {
           </li>
         </div>
         <hr />
-        <div className="px-3 mb-3">
+        <div className="mx-3">
           <button type="submit" className="btn btn-dark w-100 hireMe-button">
             <BsFillSendFill />
             <small className="ps-2">Hire me</small>
           </button>
         </div>
-        <div className="d-flex flex-row">
-          <button className="btn btn-dark btn-sm">Theme change</button>
+        <hr />
+        <div className="pt-1">
+          <div className="d-flex flex-row justify-content-around ">
+            <ThemeToggle />
+            <button className="btn btn-outline-dark btn-sm">
+              <IoColorPalette />
+            </button>
+          </div>
         </div>
-        <ThemeToggle />
       </div>
     </>
   );

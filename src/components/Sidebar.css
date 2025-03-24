@@ -32,6 +32,6 @@
 
 .hireMe-button:hover{
   background-color: white;
-  border: #dadada;
+  /* border: #dadada; */
   color: black;
 }

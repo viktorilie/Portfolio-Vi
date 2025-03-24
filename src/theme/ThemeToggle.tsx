@@ -16,9 +16,7 @@ const ThemeToggle = () => {
 
   return (
     <>
-      <button
-        className="btn btn-sm btn-outline-dark rounded-circle position-absolute bottom-0 start-50 translate-middle-x"
-        onClick={toggleTheme}>
+      <button className="btn btn-sm btn-outline-dark" onClick={toggleTheme}>
         <small className="text-capitalize">
           {theme === "light" ? <MdDarkMode /> : <MdLightMode />}
         </small>
