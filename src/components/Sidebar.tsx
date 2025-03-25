@@ -10,6 +10,8 @@ import { BsGithub } from "react-icons/bs";
 import { BsFillSendFill } from "react-icons/bs";
 import "./Sidebar.css";
 import PortfolioImage from "../assets/portfolio_image.jpg";
+import ThemeToggle from "../theme/ThemeToggle";
+import { IoColorPalette } from "react-icons/io5";
 
 const Sidebar = () => {
   return (
@@ -64,7 +66,7 @@ const Sidebar = () => {
         </ul>
         <hr className="p-1 m-1" />
         {/* social media links */}
-        <div className="list-inline mx-3">
+        <div className="list-inline">
           <li className="list-inline-item">
             <a className="nav-link" href="https://twitter.com/red_dev_vi">
               <BsTwitterX className="mx-3" size={24} />
@@ -85,11 +87,20 @@ const Sidebar = () => {
           </li>
         </div>
         <hr />
-        <div className="px-3 mb-3">
+        <div className="mx-3">
           <button type="submit" className="btn btn-dark w-100 hireMe-button">
             <BsFillSendFill />
             <small className="ps-2">Hire me</small>
           </button>
+        </div>
+        <hr />
+        <div className="pt-1">
+          <div className="d-flex flex-row justify-content-around ">
+            <ThemeToggle />
+            <button className="btn btn-outline-dark btn-sm">
+              <IoColorPalette />
+            </button>
+          </div>
         </div>
       </div>
     </>
